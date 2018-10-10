@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+.icon{
+    width: 1222px;
+    height: 90px;
+    margin:0 auto;
+}
+.icon ul{
+    width: 1222px;
+    height: 158px;
+}
+.icon ul li{
+    width: 150px;
+    height: 46px;
+    float:left;
+}
+.icon ul li .icon_box1{
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    background: url(../images/xuebi.png)no-repeat 0px -60px;
+    float:left;
+}
+.icon ul li .icon_box2{
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    background: url(../images/xuebi.png)no-repeat -46px -60px;
+    float:left;
+}
+.icon ul li .icon_box3{
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    background: url(../images/xuebi.png)no-repeat -92px -60px;
+    float:left;
+}
+.icon ul li .icon_box4{
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    background: url(../images/xuebi.png)no-repeat -138px -60px;
+    float:left;
+}
+.icon ul li p{
+    font-size: 14px;
+    color:#777777;
+    float:left;
+    margin-top:3px;
+    margin-left:10px;
+}
+.icon ul li p:hover{
+    color:#ef594b;
+}
+.icon_li1{
+    margin-left: 15px;
+}
+.icon_li2,.icon_li3,.icon_li4{
+    margin-left: 140px;
+}
+
+
+

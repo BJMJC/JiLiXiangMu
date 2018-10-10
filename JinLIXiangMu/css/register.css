@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 91px;
+    width:100%;
+    /* background: rgb(95, 153, 219); */
+    border-bottom:1px solid #eaeaea;
+}
+.header_logo{
+    width: 1102px;
+    height: 90px;
+    margin:0 auto;
+}
+.header_logo img{
+    margin-left:100px;
+}
+.main{
+    width: 1102px;
+    height: 764px;
+    margin:0 auto;
+    /* background: rgb(214, 176, 118); */
+}
+.main img{
+    width: 640px;
+    height: 555px;
+    margin-top:70px;
+}
+.main_box_right{
+    width: 360px;
+    height: 510px;
+    float:right;
+    /* background: rgb(122, 149, 235); */
+    margin-top:70px;
+    border:1px solid #dddddd;
+}
+.main_box_right_p1{
+    font-size: 18px;
+    color:#ff9c01;
+    margin-top: 24px;
+    margin-left:45px;
+}
+.main_box_right_p2{
+    font-size: 12px;
+    color:#b2b2b2;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+.main_box_right input{
+    width: 268px;
+    height: 34px;
+    border:1px solid #cccccc;
+    border-radius: 5px;
+    margin-left: 45px;
+    margin-top:10px;
+}
+.main_box_right i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left:10px;
+}
+.icon_i{
+    margin-left:260px;
+    margin-top:10px;
+}
+.icon_a1,.icon_a2{
+    font-size: 12px;
+}
+.icon_a1{
+    margin-left:180px;
+}
+.icon_a2{
+    margin-left:5px;
+}
+.main_box_right a:hover{
+    color:#ff9c01;
+}
+.main button{
+    width: 270px;
+    height: 36px;
+    border-radius: 5px;
+    background: #ff9c01;
+    color:#fff;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    margin-left:45px;
+    margin-top:92px;
+    /* border:0; */
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+    font-family: "Microsoft Yahei";
+}
+.footer{
+    height: 93px;
+    width: 100%;
+    border-top:1px solid #dddddd;
+}
+.footer_bottom{
+    width: 100%;
+    height: auto;
+    min-width: 960px;
+    text-align: center;
+    border-top: #fff 1px solid;
+    line-height: 180%;
+    padding: 10px 0 40px;
+    color: #666;
+}
+.footer .pipe{
+    margin: 0 5px;
+    color: #CCC;
+}
+.footer a{
+    color:#666;
+}
+.footer a:hover{
+    color:#ff9c01;
+}

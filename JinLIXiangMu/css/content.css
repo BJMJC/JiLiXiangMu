@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+.content{
+    width: 1222px;
+    height: 502px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.content h2{
+    font-size: 28px;
+    color:black;
+    font-weight: 400;
+    margin-left: 550px;
+    padding-bottom:49px;
+}
+.content_box_top{
+    width: 1222px;
+    height: 377px;
+}
+.content_box_top li{
+    width: 386px;
+    height: 377px;
+    float:left;
+    margin-left:14px;
+}

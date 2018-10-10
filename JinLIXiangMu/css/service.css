@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+.service{
+    height: 291px;
+    width: 100%;
+    border-top:1px solid #eaeaea;
+}
+.service_box{
+    width: 1190px;
+    height: 291px;
+    margin:0 auto;
+}
+.service_box dl{
+    float: left;
+    width: 18%;
+    line-height: 33px;
+    color: #777;
+    margin-top:30px;
+}
+.service_box dl dt{
+    font-size: 16px;
+}
+.service_box dl dd{
+    font-size: 12px;
+}
+.service_box dl dd a{
+    color:#777;
+}
+.service_box dl dd a:hover{
+    color:#ef594b;
+}
+.service_box_dl_b1{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(../images/xuebi.png)no-repeat -378px -66px;
+}
+.service_box_dl_b1:hover{
+    background: url(../images/xuebi.png)no-repeat -379px -92px;
+}
+.service_box_dl_b2{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(../images/xuebi.png)no-repeat -404px -66px;
+}
+.service_box_dl_b2:hover{
+    background: url(../images/xuebi.png)no-repeat -404px -92px;
+}
+.service_box_dl_b3{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(../images/xuebi.png)no-repeat -429px -66px;
+}
+.service_box_dl_b3:hover{
+    background: url(../images/xuebi.png)no-repeat -429px -92px;
+}
+.service_wx{
+    width: 105px;
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    color: #999;
+    margin-top: 30px;
+}
+.service_wx i{
+    display: block;
+    border: #ccc 3px solid;
+    background:url(../images/xuebi.png) -279px 0;
+    width: 98px;
+    height: 98px;
+}
+.service_wx span{
+    text-align: center;
+    line-height: 30px;
+    color: #999;
+    font-size: 12px;
+}

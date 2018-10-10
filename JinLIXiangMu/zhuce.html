@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/sign_in.css">
+    <title>注册</title>
+</head>
+<body>
+    <div class="main">
+        <div class="main_box">
+            <div class="footer">金立通信设备有限公司 &copy; 2006-2017</div>
+            <div class="content">
+                <form class="content_box" onsubmit="return false">
+                    <p class="content_box_p1">
+                        <span class="content_box_p1_span">注册</span><a class="content_box_p1_a" href="denglu.html">原官网账号登录<i></i></a>
+                    </p>
+                    <input name="username" type="text" class="content_box_inp1" type="text" placeholder="请输入手机号" >
+                    <input name="password" type="password" class="content_box_inp2" type="text" placeholder="请输入密码">
+                    <br>
+                    <a href="#"><img src="images/Connect_logo_1.png" alt=""></a>
+                    <p class="content_box_p2">
+                        <span>十天内免登录</span><a href="#">忘记密码？</a>
+                    </p>
+                    <button type="submit" name="login-btn">注册</button>
+                    <p class="content_box_p3">还没有amigo账号？<a href="#">立即注册！</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/common/ajax1.0.0.js"></script>
+    <script src="js/sign_in.js"></script>
+    <script>
+        register.init('.content_box');
+    </script>
+</body>
+</html>
