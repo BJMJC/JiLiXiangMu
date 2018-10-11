@@ -28,18 +28,20 @@ var register = (function(){
                 }
                 sendAjax('http://localhost:888/JinLIXiangMu/php/sign_in.php', params);
             }
+            this.$passwordInp.onchange = function(){
+                var reg1 = /^\w{6,13}$/;
+                if(reg1.test(_this.$passwordInp.value)){
+
+                }else{
+                    alert('请输入正确的密码')
+                }
+            }
             this.$usernameInp.onchange = function(){
                 var reg=/^1(3|4|5|7|8)[0-9]\d{8}$/;
-                var reg1 = /^\w{6,13}$/;
                 if(reg.test(_this.$usernameInp.value)){
                     
                 }else{
                     alert("请输入正确的手机号码");
-                }
-                if(reg1.test(_this.$passwordInp.value)){
-                    
-                }else{
-                    alert("请输入正确的密码");
                 }
                 var params = {
                     data: {

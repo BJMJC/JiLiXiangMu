@@ -120,7 +120,7 @@ a{
     /* background: #9f9fa2; */
     float:right;
 }
-.header_input input{
+.header_input input:nth-child(1){
     width: 142px;
     height: 28px;
     float:left;
@@ -137,4 +137,5 @@ a{
     border:1px solid #dddddd;
     border-left: none;
     margin-top:16px;
+    display: block;
 }

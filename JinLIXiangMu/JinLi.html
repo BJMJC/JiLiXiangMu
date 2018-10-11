@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/column.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/content.css">
@@ -14,6 +13,8 @@
     <link rel="stylesheet" href="css/service.css">
     <link rel="stylesheet" href="css/footer_copyright.css">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_864165_u6nyi0ek29.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.0/css/swiper.min.css">
+    <link rel="stylesheet" href="css/banner.css">
     <title>金立商城</title>
 </head>
 
@@ -21,7 +22,7 @@
     <div class="header">
         <div class="header_top_box">
             <ul class="header_top">
-                <li class="header_top_li"><a href="#">amigo账号登录</a></li>
+                <li class="header_top_li"><a href="amigodenglu.html">amigo账号登录</a></li>
                 <li class="header_top_li2"><a href="denglu.html">原账号登录</a></li>
                 <li class="header_top_li2"><a href="zhuce.html">注册</a></li>
                 <li class="header_top_li2"><i class="iconfont icon-gouwuche"></i><a href="#">购物车(0) </a></li>
@@ -86,26 +87,22 @@
             </ul>
             <div class="header_input">
                 <input type="text" placeholder="请输入搜索内容">
-                <a class="header_input_searcn"></a>
+                <a href="#" class="header_input_searcn"></a>
             </div>
         </div>
     </div>
-    <div class="box">
-        <ul class="image">
-            <a href="#">
-                <li><img src="images/04_1515047442501.jpg"></li>
-            </a>
-            <a href="#">
-                <li><img src="images/02_1517536570441.jpg"></li>
-            </a>
-        </ul>
-        <ul class="tip">
-            <li class="active"></li>
-            <li></li>
-        </ul>
-        <a href="#" class="left"></a>
-        <a href="#" class="right"></a>
+    <div class="swiper-container banner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide bg-image Gintama"></div>
+            <div class="swiper-slide bg-image SteinsGate"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <!--左箭头-->
+        <div class="swiper-button-next"></div>
+        <!--右箭头-->
+        <div class="swiper-pagination"></div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.0/js/swiper.min.js"></script>
     <script src="js/banner.lunbotu.js"></script>
     <div class="column_StarProduct">
         <h2>明星产品</h2>

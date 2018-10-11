@@ -1,58 +1,57 @@
-*{
+body {
     margin: 0;
     padding: 0;
 }
-ul,li{
-    list-style: none;
+
+/* 被选中的图片 */
+.swiper-slide-active {
+    opacity: 1;
 }
-.box{
+.banner {
     width: 1920px;
     height: 640px;
-    margin: 0 auto;
-    overflow: hidden;
+    margin:0 auto;
 }
-.image{
-    width: 1000000000px;
+.swiper-button-prev{
+    background-image: none;
+    outline: none;
+    background: url(../images/left.png);
     position: absolute;
-    left: 0;
-}
-.image li{
-    float:left;
-    /* margin:0 auto; */
-}
-.tip li {
-	text-align:center;
-	cursor: pointer;
-	font-size: 12px;
-    display: inline-block;
-    width: 50px;
-    height: 4px;
-    background-color: #fff;
-}
-.tip li:hover{
-    background:#ff6a00;
-}
-.tip {
-    position: absolute;
-    top:700px;
-    left:890px;
-}
-.left,.rigth{
-    position: absolute;
+    left:338px;
     width: 30px;
     height: 50px;
-    top: 50%;
-    margin-top: -23px;
-    /* display:none; */
 }
-.left {
-    left: 330px;
-    top:400px;
-    background-image: url(../images/left.png);
+.swiper-button-next{
+    background-image: none;
+    outline: none;
+    background: url(../images/right.png);
+    position: absolute;
+    right:338px;
+    width: 30px;
+    height: 50px;
 }
-.right {
-    right: 330px;
-    top:400px;
-    background-image: url(../images/right.png);
+.swiper-pagination-bullet {
+    width: 50px;
+    height: 4px;
+    border-radius: 0;
+    opacity: 0.8;
+    background: #fff;
 }
-
+.swiper-pagination-bullet-active {
+    background-color: #ff6a00;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active:focus {
+    outline: none;
+}
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+/* 大图 */
+.Gintama {
+    background-image: url(../images/02_1517536570441.jpg);
+}
+.SteinsGate {
+    background-image: url(../images/04_1515047442501.jpg);
+} 
