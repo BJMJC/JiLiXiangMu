@@ -13,6 +13,7 @@ a{
     width: 100%;
     border-bottom:2px solid #d5d5d5;
     position:fixed;
+    top:0;
     background: #fff;
     z-index: 5;
 }
@@ -73,9 +74,9 @@ a{
     margin:0 auto;
     position: absolute;
     background: #fff;
-    z-index: 2;
+    z-index: 10;
     left:0px;
-    bottom:321px;
+    top:103px;
     display: none;
     border-top:4px solid #d8d8d8;
 }
