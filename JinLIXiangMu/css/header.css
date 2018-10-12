@@ -9,6 +9,13 @@ a{
     text-decoration: none;
 }
 /* 头部*/
+.header_bg{
+    width: 100%;
+    border-bottom:2px solid #d5d5d5;
+    position:fixed;
+    background: #fff;
+    z-index: 5;
+}
 .header{
     width: 1222px;
     height: 103px;

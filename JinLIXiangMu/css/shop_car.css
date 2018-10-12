@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+em{
+    font-style: normal;
+}
+.content_bg{
+    height: 1100px;
+    width: 100%;
+    background: #f1f1f1;
+    margin-bottom:51px;
+}
+.content{
+    width: 1222px;
+    height: 1100px;
+    margin:0 auto;
+}
+.user_car{
+    position: relative;
+    height: 66px;
+    padding: 65px 0 20px;
+    overflow: hidden;
+}
+.user_car h1{
+    line-height: 61px;
+    padding-left: 45px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333333;
+    position: relative;
+}
+.car_icon{
+    background: url(../images/xuebi.png) no-repeat -453px -76px;
+    width: 35px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 18px;
+}
+.user_steps{
+    position: absolute;
+    right: 0;
+    top: 65px;
+    width: 375px;
+    overflow: hidden;
+    padding-top: 32px;
+}
+.user_steps ul{
+    height: 25px;
+    overflow: hidden;
+}
+.user_steps ul li{
+    float: left;
+    width: 125px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px;
+    color: #999;
+}
+.user_steps step1{
+    color: #ef4222;
+    width: 113px;
+}
+.user_steps step2{
+    width: 132px;
+}
+.user_steps step3{
+    width: 130px;
+}
+.user_steps_icon{
+    position: absolute;
+    width: 375px;
+    height: 27px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background: url(../images/xuebi.png) no-repeat 63px -488px
+}
+.user_shop_car{
+    padding: 110px 0 130px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: none;
+}
+.user_shop_car .hint{
+    line-height: 51px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.user_shop_btn .btn{
+    display: block;
+    width: 120px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    background: url(../images/mycart_empty.png) no-repeat 0 0;
+    color: #fff;
+    font-size: 20px;
+}
+.user_shop_btn a:hover{
+    background: url(../images/mycart_empty.png) no-repeat 0 -50px;
+}
+.user_browse{
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+.browse_header{
+    background: #fff;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    border:1px solid #e9e9e9;
+    border-bottom: none;
+    color:black;
+}
+.browse_header h4{
+    font-weight: normal;
+    padding-left: 20px;
+}
+.browse_list{
+    border: #e9e9e9 1px solid;
+    height: 434px;
+    overflow: hidden;
+    background: #ffffff;
+}
+.browse_list li{
+    width: 296px;
+    margin-top: 0;
+    height: 394px;
+    padding: 20px 0;
+    float: left;
+    text-align: center;
+    border-left: #f5f5f5 1px solid;
+}
+.browse_list .browse_list_a{
+    width: 210px;
+    height: 300px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    color:#404040;
+}
+.browse_list li a img{
+    position: absolute;
+    left: -35px;
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+}
+.borwse_list li p{
+    text-align: center;
+    color: #404040;
+    font-size: 12px;
+    line-height: 20px;
+}
+.browse_list .phone_name{
+    display: block;
+    width: 140px;
+    height: 40px;
+    overflow: hidden;
+    margin: 2px auto;
+}
+.browse_list .phone_name a{
+    color: #000;
+}
+.browse_list .phone_name a:hover{
+    color: #ef4222;
+}
+.browse_list .phone_price{
+    font-family: Arial;
+    font-size: 18px;
+    color: #ef4222;
+    line-height: 30px;
+}

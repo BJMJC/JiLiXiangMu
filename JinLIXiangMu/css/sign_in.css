@@ -15,7 +15,7 @@ body{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: url(../images/pic.png) no-repeat 50% 0px;
+    background: url(../images/pic.png) no-repeat 50% -760px;
 }
 .main_box{
     display: table-cell;
@@ -41,7 +41,7 @@ body{
     background: url(../images/word.png) no-repeat 94px 154px;
     margin-left: auto;
     margin-right: auto;
-    padding-top:175px;
+    padding-top:90px;
 }
 .content_box{
     width: 340px;
@@ -50,6 +50,8 @@ body{
     background: #fdfdfd url(../images/logo.png)no-repeat 117px 42px;
     padding-top:180px;
     opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #777777
 }
 .content_box_p1{
     width: 340px;

@@ -11,7 +11,7 @@ ul,li{
     color: #999;
     padding: 20px;
     height: 156px;
-    width: 100%;
+    /* width: 100%; */
 }
 .footer_copyright{
     width: 1190px;

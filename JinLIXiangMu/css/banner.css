@@ -8,9 +8,11 @@ body {
     opacity: 1;
 }
 .banner {
-    width: 1920px;
+    /* width: 1920px; */
     height: 640px;
-    margin:0 auto;
+}
+.swiper-wrapper{
+
 }
 .swiper-button-prev{
     background-image: none;
