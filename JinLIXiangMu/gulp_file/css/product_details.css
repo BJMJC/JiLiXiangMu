@@ -15,7 +15,7 @@ ul,li{
 .content_box{
     width: 1222px;
     margin: 0 auto;
-    height: 550px;
+    height: 600px;
 }
 .content_box_L{
     display: inline-block;
@@ -155,8 +155,10 @@ ul,li{
     width: 24px;
     height: 24px;
     display: inline-block;
-    background: url(../images/ui_quantity.png) no-repeat 0 0;
+    /* background: url(../images/ui_quantity.png) no-repeat 0 0; */
     cursor: pointer;
+    outline: none;
+    background: #eaeaea;
 }
 .content_box_R .content_box_value{
     float: left;
@@ -173,7 +175,39 @@ ul,li{
     width: 24px;
     height: 24px;
     display: inline-block;
-    background: url(../images/ui_quantity.png) no-repeat 0 0;
+    /* background: url(../images/ui_quantity.png) no-repeat 0 0; */
     cursor: pointer;
     background-position: -24px 0;
+    outline: none;
+    background: #eaeaea;
+}
+.content_box_bot{
+    width: 460px;
+    height: 42px;
+    font-size: 12px;
+    border-bottom:none;
+    line-height: 42px;
+    margin-top:11px;
+}
+.content_box_bot li{
+    float:left;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background: #f1f1f1;
+}
+.content_box_bot .content_box_bot_li1{
+    background: #fff;
+    border-top:2px solid #ef4222;
+}
+.content_box_bot  a{
+    color:#000;
+}
+.content_main{
+    width: 1222px;
+    min-height: 50px;
+    margin:0 auto;
+}
+.content_main img{
+    margin-top:-5px;
 }

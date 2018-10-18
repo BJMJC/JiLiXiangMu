@@ -8,7 +8,7 @@ body {
     opacity: 1;
 }
 .banner {
-    width: 1920px;
+    width: 1600px;
     height: 640px;
     margin-top:103px;
 }
@@ -20,7 +20,7 @@ body {
     outline: none;
     background: url(../images/left.png);
     position: absolute;
-    left:338px;
+    left:170px;
     width: 30px;
     height: 50px;
 }
@@ -29,7 +29,7 @@ body {
     outline: none;
     background: url(../images/right.png);
     position: absolute;
-    right:338px;
+    right:170px;
     width: 30px;
     height: 50px;
 }

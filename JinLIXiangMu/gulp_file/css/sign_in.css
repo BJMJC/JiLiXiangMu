@@ -45,7 +45,7 @@ body{
 }
 .content_box{
     width: 340px;
-    height: 360px;
+    height: 400px;
     margin-left:720px;
     background: #fdfdfd url(../images/logo.png)no-repeat 117px 42px;
     padding-top:180px;
@@ -136,4 +136,20 @@ body{
     color:#fe963f;
     font-size: 12px;
     margin-left:5px;
+}
+#username_tishi{
+    color:red;
+    font-size: 12px;
+    margin-left: 32px;
+    width: 200px;
+    height: 15px;
+    display: none;
+}
+#password_tishi{
+    color:red;
+    font-size: 12px;
+    margin-left: 32px;
+    width: 200px;
+    height: 15px;
+    display: none;
 }

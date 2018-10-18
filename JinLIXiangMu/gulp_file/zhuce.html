@@ -17,21 +17,24 @@
                     <p class="content_box_p1">
                         <span class="content_box_p1_span">注册</span><a class="content_box_p1_a" href="denglu.html">原官网账号登录<i></i></a>
                     </p>
-                    <input name="username" type="text" class="content_box_inp1" type="text" placeholder="请输入手机号" >
+                    <input name="username" type="text" class="content_box_inp1" type="text" placeholder="请输入手机号/账号" >
+                    <p id='username_tishi'>输入的手机号/账号不正确</p>
                     <input name="password" type="password" class="content_box_inp2" type="text" placeholder="请输入密码">
+                    <p id='password_tishi'>输入密码不正确</p>
                     <br>
                     <a href="#"><img src="images/Connect_logo_1.png" alt=""></a>
                     <p class="content_box_p2">
                         <span>十天内免登录</span><a href="#">忘记密码？</a>
                     </p>
-                    <button type="submit" name="login-btn">注册</button>
+                    <button type="submit" name="login-btn" id="login_btn">注册</button>
                     <p class="content_box_p3">还没有amigo账号？<a href="zhuce.html">立即注册！</a></p>
                 </form>
             </div>
         </div>
     </div>
-    <script src="js/common/ajax1.0.0.js"></script>
+    <script src="js/ajax1.0.0.js"></script>
     <script src="js/sign_in.js"></script>
+    <script src="js/jquery.js"></script>
     <script>
         register.init('.content_box');
     </script>

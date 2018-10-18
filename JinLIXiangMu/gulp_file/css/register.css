@@ -122,3 +122,15 @@ a{
 .footer a:hover{
     color:#ff9c01;
 }
+#username_tishi{
+    color:red;
+    font-size: 12px;
+    margin-left: 45px;
+    display: none;
+}
+#password_tishi{
+    color:red;
+    font-size: 12px;
+    margin-left: 45px;
+    display: none;
+}
